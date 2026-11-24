@@ -1,12 +1,21 @@
 let allbtn = document.querySelectorAll(".btn");
-let result = document.querySelector("p");
-
+let result = document.querySelector("#result");
+let comp = document.querySelector("#comp");
 
 allbtn.forEach((btn) => {
  
     btn.addEventListener("click", () => {
         
         const num = Math.floor(Math.random() * 3);  
+        if (num === 0){
+            comp.innerText = "computer selected stone";
+        }
+        else if(num === 1){
+            comp.innerText = "computer selected paper";
+        }
+        else{
+            comp.innerText = "computer selected scissor";
+        }
 
         if(num === 0 && btn.id === 'stone' || num === 1 && btn.id === "paper" || num === 2 && btn.id === 'scissor'){
             result.innerText = "ITS DRAW";
