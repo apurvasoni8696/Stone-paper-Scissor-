@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 70px;
+    background-color: rgb(137, 194, 205);
+    text-align: center;
+    
+}
