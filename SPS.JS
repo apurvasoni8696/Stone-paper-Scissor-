@@ -26,7 +26,7 @@ allbtn.forEach((btn) => {
 
 
         }
-        else if(btn.id === "stone" && num === 2 || btn.id === "paper" && num === 1 || btn.id === "scissor" && num === 1){
+        else if(btn.id === "stone" && num === 2 || btn.id === "paper" && num === 0 || btn.id === "scissor" && num === 1){
             result.innerText = "YOU WON";
             score1++;
         }
