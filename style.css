@@ -3,9 +3,44 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(192, 219, 219);
+}
+
 .header{
     height: 70px;
     background-color: rgb(137, 194, 205);
     text-align: center;
     
+}
+
+.main_box{
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(86, 177, 189);
+}
+
+#stone{
+    background-image: url("rock.jpg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+#scissor{
+    background-image: url("scissors.jpg");
+    background-size: cover;
+    border-radius: 50%;
 }
